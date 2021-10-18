@@ -22,7 +22,7 @@ The python (PySpark) code used is also shown . .  <br>
 
 Confirmation of successful data upload- here is the contents of the review_id_table from inside pgAdmin connected to AWS RDS database . . .  
 
-![image](https://user-images.githubusercontent.com/86205000/137646697-5eb4e5b9-daf7-4990-bfb3-1defe337d4be.png)
+![image](https://user-images.githubusercontent.com/86205000/137651107-61cc50fa-75a0-4f34-8bcf-dbb516ce4f48.png)
 
 Lets show all the dataframes before we move ahead to Deliverable 2
 
@@ -35,17 +35,13 @@ This is what the table looks like in pgAdmin after uploading the dataframe to AW
 ![image](https://user-images.githubusercontent.com/86205000/137649785-59e8191b-eca0-4602-86d9-992c2a073a59.png)
 
 
-
-
 Data Frame # 3 - the review_id_table dataframe: 
 
 ![image](https://user-images.githubusercontent.com/86205000/137649464-9719b482-77ae-4581-b47b-a09fd4740bf4.png)
 
 Here is the table in pgAdmin after uploading to AWS RDS
 
-![image](https://user-images.githubusercontent.com/86205000/137651107-61cc50fa-75a0-4f34-8bcf-dbb516ce4f48.png)
-
-
+![image](https://user-images.githubusercontent.com/86205000/137669350-f736ed84-ad73-4505-b22d-800ae9d85f38.png)
 
 
 Table # 4 - The vine_df dataframe
