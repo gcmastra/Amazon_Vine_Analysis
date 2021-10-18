@@ -58,11 +58,35 @@ Here is what the vine_table looks like after upload to AWS - there are 2,302,041
 
 ![image](https://user-images.githubusercontent.com/86205000/137650510-aecfa01a-cc9f-468c-adde-cd5a1309cce4.png)
 
-## Next - Deliverable #2
+## Deliverable #2 - Vine Review Analysis 
 
-Additional text will appear here. 
+Four new data frames were created based on the vine_table data frame shown above.
+The definition and contents of these dataframes can be found in the Vine_Review_Analysis.ipynb notebook file.
+
+Here is a screen capture of the header of one of the dataframes (reviews with total_votes > 20 and vine == Y) . . .
+
+![image](https://user-images.githubusercontent.com/86205000/137665533-41381cc0-aed8-406d-b04e-d6613072e78c.png)
+
+Here is a summary table of the results for the "Outdoors" product category . . .
+
+![image](https://user-images.githubusercontent.com/86205000/137663455-d6c0fe57-8614-4e99-99a5-09b5041e5e70.png)
+
+Can we conclude that paid reviews are more biased towards "5 stars" positive reviews vs non-paid reviews?  The data does NOT support this conclusion. 
+- The difference in the ratio of 5 star review is approximately 52 percent for both paid and non-paid reviews
+- Should a difference of  a fraction of one percent be considered statistically significant enough to indicate bias? I do not think so
+
+Alternative approaches?  In this analysis we looked at reviews for "Outdoors" products only. One idea I have is to look at other product categories and perform a similar analysis, to see if the percentages might be different in different product categories.  Then  a comparison could be done showing the ratios for multiple categories, and deciding which prduct category has the more bias than the others. 
+
 
 ## Deliverable #3 is this README file.
 
+### Technical Issues Encountered
 
+Here are some issues I had during this activity
 
+- The file size of the vine_table dataframe for the dataset I used was too big to upload to GitHub (size 54.4 MB > 50 MB which is the recommended limit on GitHub)
+- In Deliverable 1, all dataframes were working without errors when I took screen captures used in the README file, but after I began uploading the dataframes to AWS, I began to get errors which I believe were caused by the runtime kernal exceeding its buffer limit.  
+- This resulted in some cells which previously ran with no errors to begin experiencing errors. 
+- As a result, I had to split the COLAB notebooks into two versions, a V1 and a V2, in order to complete the uploads without losing any data
+- Specific issues with each cell are explained in the comments inside the two notebook files uploaded
+- I solved as many of the issues as I could when I encountered them, but I had to use a few workarounds to complete the activity by the deadine
