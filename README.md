@@ -41,9 +41,17 @@ Data Frame # 3 - the review_id_table dataframe:
 
 ![image](https://user-images.githubusercontent.com/86205000/137649464-9719b482-77ae-4581-b47b-a09fd4740bf4.png)
 
+Here is the table in pgAdmin after uploading to AWS RDS
+
+![image](https://user-images.githubusercontent.com/86205000/137651107-61cc50fa-75a0-4f34-8bcf-dbb516ce4f48.png)
 
 
-Table # 4 - vine_df
+
+
+Table # 4 - The vine_df dataframe
+
+Here is a screen capture of the  select statement in the code as well as the data frame header . . . 
+
 ![image](https://user-images.githubusercontent.com/86205000/137649423-d58c35fc-15a3-402b-8e71-e6961faeb3ff.png)
 
 Here is what the vine_table looks like after upload to AWS - there are 2,302,041 rows in the table! 
